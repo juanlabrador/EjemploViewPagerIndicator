@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EjemploViewPagerIndicator.iml" filepath="$PROJECT_DIR$/EjemploViewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicatorLibrary/ViewPagerIndicatorLibrary.iml" filepath="$PROJECT_DIR$/ViewPagerIndicatorLibrary/ViewPagerIndicatorLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/libraryViewPagerIndicator/libraryViewPagerIndicator.iml" filepath="$PROJECT_DIR$/libraryViewPagerIndicator/libraryViewPagerIndicator.iml" />
     </modules>
   </component>
 </project>

@@ -1,14 +1,6 @@
 ECLIPSE ANDROID PROJECT IMPORT SUMMARY
 ======================================
 
-Ignored Files:
---------------
-The following files were *not* copied into the new Gradle project; you
-should evaluate whether these are still needed in your project and if
-so manually move them:
-
-* pom.xml
-
 Replaced Jars with Dependencies:
 --------------------------------
 The importer recognized the following .jar files as third party
@@ -19,16 +11,16 @@ the .jar file in your project was of an older version than the
 dependency we picked, which could render the project not compileable.
 You can disable the jar replacement in the import wizard and try again:
 
-android-support-v4.jar => com.android.support:support-v4:18.+
+android-support-v4.jar => com.android.support:support-v4:19.+
 
 Moved Files:
 ------------
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => libraryViewPagerIndicator/src/main/AndroidManifest.xml
-* res/ => libraryViewPagerIndicator/src/main/res/
-* src/ => libraryViewPagerIndicator/src/main/java/
+* AndroidManifest.xml => ViewPagerIndicatorLibrary/src/main/AndroidManifest.xml
+* res/ => ViewPagerIndicatorLibrary/src/main/res/
+* src/ => ViewPagerIndicatorLibrary/src/main/java/
 
 Missing Android Support Repository:
 -----------------------------------
