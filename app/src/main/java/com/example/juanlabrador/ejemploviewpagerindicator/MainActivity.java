@@ -5,8 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 
-import com.viewpagerindicator.CirclePageIndicator;
-import com.viewpagerindicator.PageIndicator;
+import com.efoad.views.ViewPagerIndicator;
 
 
 public class MainActivity extends FragmentActivity {
@@ -21,7 +20,7 @@ public class MainActivity extends FragmentActivity {
      * The pager adapter, which provides the pages to the view pager widget.
      */
     PageFragmentAdapter pagerAdapter;
-    PageIndicator pIndicator;
+    ViewPagerIndicator pIndicator;
 
     @Override
     protected void onCreate(Bundle arg0) {
@@ -41,10 +40,11 @@ public class MainActivity extends FragmentActivity {
         adapter.addFragment(PageFragment.newInstance(Color.RED, 4));
         this.pager.setAdapter(adapter);
 
-        CirclePageIndicator indicator = (CirclePageIndicator)findViewById(R.id.indicator);
-        pIndicator = indicator;
-        indicator.setViewPager(pager);
-        indicator.setSnap(true);
+        pIndicator = (ViewPagerIndicator)findViewById(R.id.indicator);
+        //CirclePageIndicator indicator = (CirclePageIndicator)findViewById(R.id.indicator);
+        //pIndicator = indicator;
+        pIndicator.setViewPager(pager);
+        //pIndicator.setSnap(true);
 
     }
 
